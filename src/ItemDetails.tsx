@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import useFetch from './useFetch';
 import { Item } from './Interface';
+import './ItemDetails.css';
 
 interface Params {
     id: string;

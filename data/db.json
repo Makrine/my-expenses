@@ -1,52 +1,130 @@
 {
-    "items": [
-        { "item": "Bread", 
-          "price": 1.99,
-          "shop": "ALDI",
-          "date": "10.08.2024",
-          "id": 1,
-          "category": "Food",
-          "comment": "Bread for the breakfast"
-        },
-        { "item": "Milk", 
-          "price": 1.99, 
-          "shop": "NORMA", 
-          "date": "10.08.2024", 
-          "id": 2,
-          "category": "Food",
-          "comment": "Milk for the coffee"
-        },
-        { "item": "Eggs", 
-          "price": 2.26, 
-          "shop": "Edeka", 
-          "date": "10.08.2024", 
-          "id": 3,
-          "category": "Food",
-          "comment": "Eggs for the cake"
-        },
-        { "item": "Cheese", 
-          "price": 1.22, 
-          "shop": "Edeka", 
-          "date": "9.08.2024", 
-          "id": 4,
-          "category": "Food",
-          "comment": "Cheese for the sandwich"
-        },
-        { "item": "Pizza", 
-          "price": 5.36, 
-          "shop": "Edeka", 
-          "date": "10.08.2024", 
-          "id": 5,
-          "category": "Food",
-          "comment": "Pizza for the party"
-        },
-        { "item": "Pizza", 
-          "price": 5.36, 
-          "shop": "Edeka", 
-          "date": "1.08.2024", 
-          "id": 6,
-          "category": "Food",
-          "comment": "Pizza for the party"
-        }
-    ]
+  "items": [
+    {
+      "item": "Bread",
+      "price": 1.99,
+      "shop": "ALDI",
+      "date": "10.08.2024",
+      "id": "1",
+      "category": "Food",
+      "comment": "Bread for the breakfast"
+    },
+    {
+      "item": "Milk",
+      "price": 1.99,
+      "shop": "NORMA",
+      "date": "10.08.2024",
+      "id": "2",
+      "category": "Food",
+      "comment": "Milk for the coffee"
+    },
+    {
+      "item": "Eggs",
+      "price": 2.26,
+      "shop": "Edeka",
+      "date": "10.08.2024",
+      "id": "3",
+      "category": "Food",
+      "comment": "Eggs for the cake"
+    },
+    {
+      "item": "Cheese",
+      "price": 1.22,
+      "shop": "Edeka",
+      "date": "9.08.2024",
+      "id": "4",
+      "category": "Food",
+      "comment": "Cheese for the sandwich"
+    },
+    {
+      "item": "Pizza",
+      "price": 5.36,
+      "shop": "Edeka",
+      "date": "10.08.2024",
+      "id": "5",
+      "category": "Food",
+      "comment": "Pizza for the party"
+    },
+    {
+      "item": "Pizza",
+      "price": 5.36,
+      "shop": "Edeka",
+      "date": "1.08.2024",
+      "id": "6",
+      "category": "Food",
+      "comment": "Pizza for the party"
+    },
+    {
+      "id": "7c14",
+      "item": "makrine",
+      "shop": "m",
+      "price": 10,
+      "date": "2024-08-12T22:03:43.436Z",
+      "comment": "",
+      "category": "Other"
+    },
+    {
+      "id": "f787",
+      "item": "qqq",
+      "shop": "eee",
+      "price": 111,
+      "date": "2024-08-12T22:06:35.260Z",
+      "comment": "",
+      "category": "Other"
+    },
+    {
+      "id": "1b08",
+      "item": "qqq",
+      "shop": "eee",
+      "price": 111,
+      "date": "2024-08-12T22:06:37.856Z",
+      "comment": "",
+      "category": "Other"
+    },
+    {
+      "id": "03ab",
+      "item": "qqq",
+      "shop": "eee",
+      "price": 111,
+      "date": "2024-08-12T22:06:38.860Z",
+      "comment": "",
+      "category": "Other"
+    },
+    {
+      "id": "4e6d",
+      "item": "qqq",
+      "shop": "eee",
+      "price": 111,
+      "date": "2024-08-12T22:06:39.000Z",
+      "comment": "",
+      "category": "Other"
+    },
+    {
+      "id": "a405",
+      "item": "maultaschen",
+      "shop": "Aldi",
+      "price": 1.99,
+      "date": "2024-08-12T22:08:45.358Z",
+      "comment": "",
+      "category": "Other"
+    },
+    {
+      "id": "18c6",
+      "item": "traki",
+      "shop": "NORMA",
+      "price": 0,
+      "date": "2024-08-12T22:09:21.283Z",
+      "comment": "",
+      "category": "Other"
+    },
+    {
+      "id": "c46a",
+      "item": "traki2",
+      "shop": "gsgfd",
+      "price": 0,
+      "date": "2024-07-29",
+      "comment": "",
+      "category": "Other"
+    }
+  ]
 }

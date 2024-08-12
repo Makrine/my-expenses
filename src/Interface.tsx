@@ -1,5 +1,5 @@
 export interface Item {
-    id: number;
+    id?: number;
     price: number;
     item: string;
     shop: string;
@@ -11,7 +11,7 @@ export interface Item {
 export interface ItemListProps {
     items: Item[];
     title: string;
-    handleDelete: (id: number) => void;
+    handleDelete: (id: number | undefined) => void;
 }
 
 export interface UseFetchResult<T> {

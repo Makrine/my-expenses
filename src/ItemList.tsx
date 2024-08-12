@@ -2,6 +2,7 @@ import React from 'react';
 import { Item } from "./Interface";
 import { Link } from 'react-router-dom';
 import { ItemListProps } from './Interface';
+import './ItemList.css';
 
 // Utility function to group items by date
 const groupByDate = (items: Item[]) => {

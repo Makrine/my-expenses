@@ -8,8 +8,8 @@ const Home = () => {
     const { data: products, isPending, error } = useFetch<Item[]>('http://localhost:8000/items');  
 
     // create handleDelete function
-    const handleDelete = (id: number) => {
-        
+    const handleDelete = (id: number | undefined) => {
+        console.log('delete item with id', id);
     }
 
     return (

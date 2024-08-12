@@ -25,7 +25,6 @@ const ItemDetail: React.FC = () => {
 
     return ( 
         <div className="item-detail-container">
-            <h2>Item Detail {id}</h2>
             {isPending && <div className="loading">Loading...</div>}
             {error && <div className="error">{error}</div>}
             {item && (

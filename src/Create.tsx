@@ -34,11 +34,9 @@ const Create: React.FC = () => {
             body: JSON.stringify(newItem)
             
         }).then(() => {
-            console.log('new item added');
             setIsPending(false);
+            history.push('/');
         })
-
-        history.push('/');
     };
 
     return ( 

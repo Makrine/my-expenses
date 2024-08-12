@@ -3,6 +3,7 @@ import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Create from './Create';
 import ItemDetail from './ItemDetails';
+import NotFOund from './NotFound';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path="/items/:id" exact>
             <ItemDetail />
+          </Route>
+          <Route path="*">
+            <NotFOund />
           </Route>
         </Switch>
       </div>

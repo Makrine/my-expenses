@@ -4,6 +4,7 @@ import useFetch from './useFetch';
 import { Item } from './Interface';
 import './ItemDetails.css';
 import { useHistory } from 'react-router-dom';
+import { ENDPOINTS } from './config/config';
 
 interface Params {
     id: string;
@@ -11,11 +12,11 @@ interface Params {
 
 const ItemDetail: React.FC = () => {
     const { id } = useParams<Params>();
-    const { data: item, isPending, error } = useFetch<Item>(`http://localhost:8000/items/${id}`);
+    const { data: item, isPending, error } = useFetch<Item>(ENDPOINTS.ITEMS + '/' +id);
     const history = useHistory();
 
     const handleDelete = () => {
-        fetch(`http://localhost:8000/items/${id}`, {
+        fetch(ENDPOINTS.ITEMS + '/' + id, {
             method: 'DELETE'
         }).then(() => {
             history.push('/');

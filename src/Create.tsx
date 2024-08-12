@@ -2,6 +2,7 @@ import './Create.css';
 import { useState } from 'react';
 import { Item } from './Interface';
 import { useHistory } from 'react-router-dom';
+import { ENDPOINTS } from './config/config';
 
 const Create: React.FC = () => {
 
@@ -26,7 +27,7 @@ const Create: React.FC = () => {
             category: category
         };
 
-        fetch('http://localhost:8000/items', {
+        fetch(ENDPOINTS.ITEMS, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

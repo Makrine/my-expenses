@@ -1,10 +1,52 @@
 {
     "items": [
-        { "item": "Bread", "price": 1.99, "shop": "ALDI", "date": "10.08.2024", "id": 1 },
-        { "item": "Milk", "price": 1.99, "shop": "NORMA", "date": "10.08.2024", "id": 2 },
-        { "item": "Eggs", "price": 2.26, "shop": "Edeka", "date": "10.08.2024", "id": 3 },
-        { "item": "Cheese", "price": 1.22, "shop": "Edeka", "date": "9.08.2024", "id": 4 },
-        { "item": "Pizza", "price": 5.36, "shop": "Edeka", "date": "10.08.2024", "id": 5 },
-        { "item": "Pizza", "price": 5.36, "shop": "Edeka", "date": "1.08.2024", "id": 6 }
+        { "item": "Bread", 
+          "price": 1.99,
+          "shop": "ALDI",
+          "date": "10.08.2024",
+          "id": 1,
+          "category": "Food",
+          "comment": "Bread for the breakfast"
+        },
+        { "item": "Milk", 
+          "price": 1.99, 
+          "shop": "NORMA", 
+          "date": "10.08.2024", 
+          "id": 2,
+          "category": "Food",
+          "comment": "Milk for the coffee"
+        },
+        { "item": "Eggs", 
+          "price": 2.26, 
+          "shop": "Edeka", 
+          "date": "10.08.2024", 
+          "id": 3,
+          "category": "Food",
+          "comment": "Eggs for the cake"
+        },
+        { "item": "Cheese", 
+          "price": 1.22, 
+          "shop": "Edeka", 
+          "date": "9.08.2024", 
+          "id": 4,
+          "category": "Food",
+          "comment": "Cheese for the sandwich"
+        },
+        { "item": "Pizza", 
+          "price": 5.36, 
+          "shop": "Edeka", 
+          "date": "10.08.2024", 
+          "id": 5,
+          "category": "Food",
+          "comment": "Pizza for the party"
+        },
+        { "item": "Pizza", 
+          "price": 5.36, 
+          "shop": "Edeka", 
+          "date": "1.08.2024", 
+          "id": 6,
+          "category": "Food",
+          "comment": "Pizza for the party"
+        }
     ]
 }

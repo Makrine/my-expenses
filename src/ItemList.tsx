@@ -1,12 +1,7 @@
 import React from 'react';
 import { Item } from "./Interface";
-
-// Define an interface for the props
-interface ItemListProps {
-    items: Item[];
-    title: string;
-    handleDelete: (id: number) => void;
-}
+import { Link } from 'react-router-dom';
+import { ItemListProps } from './Interface';
 
 // Utility function to group items by date
 const groupByDate = (items: Item[]) => {
@@ -46,11 +41,12 @@ const ItemList: React.FC<ItemListProps> = ({ items, title, handleDelete }) => {
                     {groupedItems[date].map(item => (
                         <div className="item-preview" key={item.id}>
                             <div className="item-info">
-                                <h2>{item.item}</h2>
+                                    <h2>{item.item}</h2>
                                 <p>{item.shop}</p>
                             </div>
                             <div className="price-container">
                                 <div className="price">€{item.price.toFixed(2)}</div>
+                                <Link to={`/items/${item.id}`}><button className='btn-details'>Details</button></Link>
                                 <button className="btn-delete-item" onClick={() => handleDelete(item.id)}>Delete</button>
                             </div>
                         </div>

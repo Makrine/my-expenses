@@ -125,6 +125,15 @@
       "date": "2024-07-29",
       "comment": "",
       "category": "Other"
+    },
+    {
+      "id": "bdc4",
+      "item": "test",
+      "shop": "LIDL",
+      "price": 0,
+      "date": "2024-08-07",
+      "comment": "",
+      "category": ""
     }
   ]
 }

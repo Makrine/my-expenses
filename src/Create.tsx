@@ -1,6 +1,7 @@
 import './Create.css';
 import { useState } from 'react';
 import { Item } from './Interface';
+import { useHistory } from 'react-router-dom';
 
 const Create: React.FC = () => {
 
@@ -12,6 +13,7 @@ const Create: React.FC = () => {
     const [category, setCategory] = useState<string>('');
 
     const [isPending, setIsPending] = useState<boolean>(false);
+    const history = useHistory();
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
@@ -35,6 +37,8 @@ const Create: React.FC = () => {
             console.log('new item added');
             setIsPending(false);
         })
+
+        history.push('/');
     };
 
     return ( 

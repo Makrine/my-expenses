@@ -11,7 +11,6 @@ export interface Item {
 export interface ItemListProps {
     items: Item[];
     title: string;
-    handleDelete: (id: number | undefined) => void;
 }
 
 export interface UseFetchResult<T> {

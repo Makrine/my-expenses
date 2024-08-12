@@ -17,7 +17,7 @@ const groupByDate = (items: Item[]) => {
 };
 
 // Define the ItemList component with typed props
-const ItemList: React.FC<ItemListProps> = ({ items, title, handleDelete }) => {
+const ItemList: React.FC<ItemListProps> = ({ items, title }) => {
     // Sort items by date
     const sortedItems = [...items].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
@@ -48,7 +48,6 @@ const ItemList: React.FC<ItemListProps> = ({ items, title, handleDelete }) => {
                             <div className="price-container">
                                 <div className="price">€{item.price.toFixed(2)}</div>
                                 <Link to={`/items/${item.id}`}><button className='btn-details'>Details</button></Link>
-                                <button className="btn-delete-item" onClick={() => handleDelete(item.id)}>Delete</button>
                             </div>
                         </div>
                     ))}

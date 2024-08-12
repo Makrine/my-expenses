@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <div className="home">
             {isPending && <div>Loading...</div>}
-            {products && <ItemList items={products} title="Expenses" handleDelete={handleDelete}/>}
+            {products && <ItemList items={products} title="Expenses"/>}
         </div>
     );
 }

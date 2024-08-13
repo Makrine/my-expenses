@@ -1,15 +1,6 @@
 {
   "items": [
     {
-      "id": "bcc6",
-      "item": "Milk",
-      "shop": "ALDI",
-      "price": 0.95,
-      "date": "2024-08-05",
-      "comment": "",
-      "category": ""
-    },
-    {
       "id": "a",
       "item": "Cheese",
       "shop": "ALDI",
